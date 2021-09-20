@@ -23,5 +23,6 @@ export const twitterProvider = new firebase.auth.TwitterAuthProvider();
 export const githubProvider = new firebase.auth.GithubAuthProvider();
 export const db = firebase.firestore();
 export const storage = firebase.storage();
+export const auth = firebase.auth()
 
 

@@ -4,6 +4,8 @@ import { withRouter } from "react-router";
 import logo from '../assets/images/logo.png'
 import  {firebase_app } from "../data/config";
 
+import {Link} from 'react-router-dom'
+
 
 function Login({history}) {
 
@@ -45,7 +47,7 @@ function Login({history}) {
 
             <p className="text-center mt-1">
                 Don't have an account ?
-                <a href="#" className="text-blue"><strong>Sign Up</strong></a>
+                <Link to="/register" className="text-blue"><strong>Sign Up</strong></Link>
             </p>
         </>
     )
